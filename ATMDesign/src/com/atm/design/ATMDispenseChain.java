@@ -34,7 +34,7 @@ public class ATMDispenseChain {
 				Scanner input = new Scanner(System.in);
 				amount = input.nextInt();
 				if (amount % 100 != 0) {
-					System.out.println("Amount should be in multiple of 100s.");
+					System.out.println("Please check.Amount should be in multiple of 100s.");
 					return;
 				}
 				// process the request
